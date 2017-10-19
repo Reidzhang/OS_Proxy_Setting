@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2015",
+      "removeComments": false,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "rootDir": "src",
+      "outDir": "build/web_app/js",
+      "lib": [
+        "dom",
+        "es5",
+        "es2015",
+        "scripthost"
+      ]
+    },
+    "exclude": [
+      "node_modules",
+      "src/**/*.spec.ts"
+    ],
+    "compileOnSave": true
+  }
